@@ -1,2 +1,2 @@
-# Daniel-HTML
+# CV
 Repositoty out of beginner
