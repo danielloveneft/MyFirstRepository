@@ -3,78 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <title>Daniel CV</title>
+    <link href="style.css" rel="stylesheet"/>
 </head>
 <body>
-    <table cellspacing ="20">
-        <tr>
-            <td>   <img src ="https://cdn.icon-icons.com/icons2/1812/PNG/512/4213460-account-avatar-head-person-profile-user_115386.png" width = "200"  alt = "Тут моя аватарка" >
-            </td>
-            <td>
-                <h1>
+    <div = "box-container">
+
+  
+    <div class = "info">
+        <div class = "info-image">
+        <img  src ="https://cdn.icon-icons.com/icons2/1812/PNG/512/4213460-account-avatar-head-person-profile-user_115386.png" alt = "Тут моя аватарка"  class = "imagion"/>
+        </div>
+        <div class="media">
+            <h1>
                 Абдуваитов Даниял
-                </h1>
-                <p><em>Я люблю смотреть аниме и играть в видео игры</em></p>
-                <p><em>Я являюсь новичком в <strong>It сфере</strong></em></p>
-            </td>
-        </tr>
-    </table>
-   <hr>
-   <h2>Связаться со мной</h2>
-   <form action = "https://t.me/d_r_daniel">
-    <input type = "text"  placeholder="Введите ваше имя">
-    <br>
-    <input type = "email"  placeholder="Введите email">
-    <br>
-    <label for = "text">Введите ваше сообщение: </label>
-    <br>
-    <textarea  id = "text" rows = "2" cols = "9"></textarea></>
-    <br>
-    <input type="submit" value = "Связаться">
+               </h1>
+               <p>Я являюсь новичком в <strong>It сфере</strong></p>
+               <p>Я люблю смотреть аниме и играть в видео игры</p>
+            <h4>Мои соц.сети</h4>
+        <a href = "https://instagram.com/mr_daniel_neft"target= "_blank"> Instagram</a>
+         |
+        <a href="https://t.me/d_r_daniel" target="_blank"> Telegram </a>
+        </label>
+       
+        </div>
+    </div>
+  
+    
 
    </form>
-   <hr>
+   <div class="card bg-green">
    <h2>Мои хобби</h2>
-   <ul type="square">
+   <ul type="square" class = "list">
     <li>Катание на коньках</li>
     <li>Просмотр сериалов</li>
     <li>Занятие спортом</li>
    </ul>
-   <hr>
-   <h2>Мои соц.сети</h2>
-   <ol type ="I">
-    <li><a href = "https://instagram.com/mr_daniel_neft"target= "_blank"> Instagram</a></li>
-    <li><a href="https://t.me/d_r_daniel" target="_blank"> Telegram </a></0000a></li>
-   </ol>
-   <h2><a href = "youtube.html"> Youtube </a></h2>
-   <hr>
-   <h2> 
-    <table border = "1">
-        <tablehead>
-            <tr>
-                <td>Мой опыт</td>
-                <td>Мои отметки</td>
-                <td>Мои затраты</td>
-            </tr>
-        </tablehead>
-        <tablebody>
-            <tr>
-                <td>Обучение</td>
-                <td>Отлично</td>
-                <td>Бесплатно</td>
-            </tr>
-            <tr>
-                <td>Гейминг</td>
-                <td>Хорошо</td>
-                <td>500$</td>
-            </tr>
-            <tr>
-                <td>Программинг</td>
-                <td>Новичок</td>
-                <td>300$</td>
-            </tr>
-        </tablebody>
+    </div>
+   
+   <div class = "card bg-red">
+   <table class = "table">
+    <tr>  
+        <td>Мой опыт</td>
+        <td>Мои отметки</td>
+        <td>Мои затраты</td>
+       
+    </tr>
+    <tr>    
+        <td>Обучение</td>
+        <td>Отлично</td>
+        <td>Бесплатно</td>
+    </tr>
+    <tr>   
+        <td>Гейминг</td>
+        <td>Хорошо</td>
+        <td>500$</td>
+    </tr>
+    <tr>
+        <td>Программинг</td>
+        <td>Новичок</td>
+        <td>300$</td>
+    </tr>
     </table>
-   </h2>
+   </div>
+     
+        
+    <div class = "card bg-yellow">
+        <div class="link-list">
+            <h2>Ютуб курсы</h2>
+            <ul>
+                <li><a href="https://www.youtube.com/watch?v=SpCUuyZZTp8">CSS для Начинающих - Практический Курс</a></li>
+                <li><a href="https://www.youtube.com/watch?v=DOEtVdkKwcU">HTML для Начинающих - Практический Курс</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class ="connection">
+        <h2 >Связаться со мной</h2>
+        <div class="receiving">
+        <form action = "https://t.me/d_r_daniel">
+        <div class="row">
+            <div class = "text">
+            <label for = "text"> Ваше имя: </label>
+            <input  id = "text"type = "text"  placeholder="Введите ваше имя">
+            </div>
+            <div class = "email">
+            <label for = "text"> Ваш email: </label>
+            <input type = "email"  placeholder="Введите email">
+            </div>
+        </div>
+        <label for = "text">Введите ваше сообщение: </label>
+        <textarea  id = "text" rows = "2" cols = "9"></textarea></>
+        
+        </div>
+    </div>
+        <input class="button" type="submit" value = "Связаться">
+    </div>
+   
+ 
+   
 
 </body>
 </html>

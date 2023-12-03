@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Teko&display=swap');
+body{
+    background: rgb(152, 158, 155);
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Teko', sans-serif;;
+}
+a {
+    color: rgba(255, 170, 0, 0.753);
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+a:visited {
+    color: yellowgreen;
+}
+a:active{
+    color:rgb(7, 0, 0);
+}
+
+.connection h2{
+    text-align: center;
+}
+
+.receiving input,
+.receiving textarea{
+    outline: none;
+    background: fixed;
+    box-sizing: border-box;
+    width: 100%;
+    border: none;
+    border-bottom: 1px black solid;
+    padding: 10px 0px 15px;
+    font-family: inherit;
+}
+    
+.receiving {
+    display: block;
+    
+  
+}
+    
+
+
+.row > .receiving {
+    width: 100%;    
+}
+.row {
+    display: flex ;
+    margin-bottom: 20px;
+}
+.text{
+    margin-right: 20px;
+    width: 100%;
+}
+.email{
+    width: 100%;
+}
+.button:hover{
+    opacity: 0.9;
+}
+
+
+.button {
+    font-family: inherit;
+    background: black;
+    color: whitesmoke;
+    border: none;
+    width: 100%;
+    cursor:pointer;
+}
+
+.link-list{
+    
+    width: 100%;
+}
+.link-list li{
+    list-style: none;
+    margin-bottom: 10px;
+    padding: 0px;
+    border-bottom: 4px solid #ccc;
+}
+
+.imagion {
+    box-shadow: 4, 4 , 15, rgb(152, 158, 155);
+    border-radius: 28px;
+    width: 300px;
+    
+    
+}
+.card { 
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    /* background-color: red; */
+}
+.bg-yellow{
+    background-color: #fff9dc;
+}
+.bg-green{
+    background-color: #e5ffe7;
+}
+.bg-red{
+    background-color: #ffe5e5;
+}
+.table {
+    width: 100%;
+}
+.table td{ 
+    border: 20px, 20px;
+}
+.table td:nth-child(2){
+    color: grey
+}
+.table td:nth-child(3){
+    color: grey
+}
+.list li{
+    padding: 15px, 20px;
+    margin-bottom: 10px;
+    color: grey;
+}
+.info p{
+     color: darkgray;
+     font-style: italic;
+     font-weight: bold;
+     margin: 0;
+     /* text-decoration: none;
+     text-transform: none;
+     letter-spacing: none;
+     word-spacing: none;
+      */
+}
+.info {
+    display: flex;
+    margin-bottom: 2%;
+    width: 50%;
+    margin: auto;
+}
+.info h4{
+    margin-top: 5%;
+}
+@media (max-width: 700px) {
+    .info {
+      width: 100%;
+      display: block;
+      text-align: center;
+      }
+  }
+
+.media {
+    /* background: rgb(50,0,0);
+    margin: 50px;
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    border: 5px double skyblue      */
+    margin-bottom: 15px;
+    
+
+}
+.media h4{
+    margin: 0px;
+}
+.box-container {
+    max-width: 300px;
+    margin: 150px;    
+}
+.box-model div{
+    float: left;
+    background: rgb(7, 0, 0);
+    height: 200px;
+    width: 25%;
+    border:4px solid red;
+    box-sizing: border-box;
+    
+}
+.box-bottom{
+    margin-bottom: 500px;
+}
