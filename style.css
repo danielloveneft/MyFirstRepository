@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Teko&display=swap');
 body{
-    background: rgb(152, 158, 155);
+    background: rgb(255, 255, 255);
     font-size: 16px;
     font-weight: normal;
     font-family: 'Teko', sans-serif;;
@@ -24,14 +24,24 @@ a:active{
     text-align: center;
 }
 
-.receiving input,
-.receiving textarea{
+.receiving input
+{
     outline: none;
     background: fixed;
     box-sizing: border-box;
     width: 100%;
     border: none;
     border-bottom: 1px black solid;
+    padding: 10px 0px 15px;
+    font-family: inherit;
+}
+.receiving textarea{
+    outline: none;
+    background: fixed;
+    box-sizing: border-box;
+    width: 100%;
+    border: none;
+    border-bottom: 1px rgb(0, 0, 0) solid;
     padding: 10px 0px 15px;
     font-family: inherit;
 }
@@ -84,10 +94,20 @@ a:active{
 }
 
 .imagion {
-    box-shadow: 4, 4 , 15, rgb(152, 158, 155);
+    background: fixed;
     border-radius: 28px;
     width: 300px;
     
+}
+.dynamic-imagion {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    top: 5%;
+    right: 0;
+    box-shadow: -4px 4px 4px black;
+
     
 }
 .card { 
@@ -166,7 +186,7 @@ a:active{
     margin: 0px;
 }
 .box-container {
-    max-width: 300px;
+    width: auto;
     margin: 150px;    
 }
 .box-model div{
